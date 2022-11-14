@@ -1,0 +1,15 @@
+Nov 10 18:46:30.034 HYPERVISOR: Release 0.2.22-amd64/Linux (tag 2022052400)
+Nov 10 18:46:30.034 HYPERVISOR: Started on IP = localhost, TCP port = 33125.
+Nov 10 18:46:30.043 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 10 18:46:30.043 HYPERVISOR: exec_cmd: hypervisor working_dir /home/roy/GNS3/projects/00.FirstRun/project-files/dynamips 
+Nov 10 18:46:30.043 GENERAL: working_dir=/home/roy/GNS3/projects/00.FirstRun/project-files/dynamips
+Nov 10 18:46:30.044 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Nov 10 18:46:30.127 HYPERVISOR: exec_cmd: nio create_udp udp-9eba32f3-679f-4036-86ea-16cba0a62f1a 10001 127.0.0.1 10000 
+Nov 10 18:46:30.127 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-9eba32f3-679f-4036-86ea-16cba0a62f1a 
+Nov 10 18:46:30.143 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-9eba32f3-679f-4036-86ea-16cba0a62f1a 1 
+Nov 10 18:46:30.161 HYPERVISOR: exec_cmd: nio create_udp udp-1d3f7988-7f73-462d-874e-279bcede64a9 10002 127.0.0.1 10003 
+Nov 10 18:46:30.161 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-1d3f7988-7f73-462d-874e-279bcede64a9 
+Nov 10 18:46:30.163 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-1d3f7988-7f73-462d-874e-279bcede64a9 1 
+Nov 10 18:46:30.394 HYPERVISOR: exec_cmd: nio create_udp udp-cd3a18d0-4247-45ec-8d85-068fcdb773ef 10005 127.0.0.1 10004 
+Nov 10 18:46:30.395 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-cd3a18d0-4247-45ec-8d85-068fcdb773ef 
+Nov 10 18:46:30.405 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-cd3a18d0-4247-45ec-8d85-068fcdb773ef 1 
